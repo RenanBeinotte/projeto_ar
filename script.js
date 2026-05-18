@@ -27,15 +27,18 @@ window.onload = () => {
         case "marte":
           texto = "Marte: planeta vermelho.";
           break;
+
+        case "saturno":
+          texto = "Saturno: planeta com anéis.";
+          break;
       }
 
       info.innerHTML = texto;
 
-      // animação ao clicar
       planeta.setAttribute(
         "animation__scale",
-        "property: scale; to: 1.5 1.5 1.5; dur: 300; dir: alternate"
-      );
+        "property: scale; to: 1.5 1.5 1.5; dur: 300; dir: alternate;"
+        );
 
     });
 
