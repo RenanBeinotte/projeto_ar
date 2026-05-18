@@ -12,7 +12,7 @@ window.onload = () => {
 
       switch(planeta.id) {
 
-        case "Sol":
+        case "sol":
           texto = "Sol.";
           break;
 
