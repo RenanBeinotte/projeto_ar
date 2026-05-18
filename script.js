@@ -6,7 +6,7 @@ window.onload = () => {
 
   planetas.forEach(planeta => {
 
-    planeta.addEventListener("click", () => {
+    planeta.addEventListener("mouseenter", () => {
 
       let texto = "";
 
