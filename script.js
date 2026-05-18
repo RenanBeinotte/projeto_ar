@@ -12,6 +12,10 @@ window.onload = () => {
 
       switch(planeta.id) {
 
+        case "Sol":
+          texto = "Sol.";
+          break;
+
         case "mercurio":
           texto = "Mercúrio: planeta mais próximo do Sol.";
           break;
