@@ -38,7 +38,7 @@
   Clique em um planeta
 </div>
 
-<a-scene embedded arjs>
+<a-scene embedded arjs cursor="rayOrigin: mouse">
 
   <!-- Marcador Hiro -->
   <a-marker preset="hiro">
@@ -103,17 +103,24 @@
                  dur: 7000">
     </a-sphere>
 
-      <a-sphere
-    radius="0.15"
-    color="#d2b48c">
-  </a-sphere>
+    <a-entity
+        class="planeta"
+        id="saturno"
+        position="3 0.3 0">
 
-  <a-torus
-    radius="0.22"
-    radius-tubular="0.01"
-    rotation="90 0 0"
-    color="gray">
-  </a-torus>
+        <a-sphere
+            radius="0.15"
+            color="#d2b48c">
+        </a-sphere>
+
+        <a-torus
+            radius="0.22"
+            radius-tubular="0.01"
+            rotation="90 0 0"
+            color="gray">
+        </a-torus>
+
+        </a-entity>
 
   </a-marker>
 
