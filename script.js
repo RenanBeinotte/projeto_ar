@@ -6,11 +6,11 @@ window.onload = () => {
 
   planetas.forEach(planeta => {
 
-    planeta.addEventListener("mouseenter", () => {
+    planeta.addEventListener("click", () => {
 
       let texto = "";
 
-      switch(planeta.id){
+      switch(planeta.id) {
 
         case "mercurio":
           texto = "Mercúrio: planeta mais próximo do Sol.";
